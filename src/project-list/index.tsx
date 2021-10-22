@@ -32,7 +32,7 @@ export const ProjectList = () => {
 
   return (
     <div>
-      <SearchPanel user={users} param={param} setParam={setParam} />
+      <SearchPanel users={users} param={param} setParam={setParam} />
       <List users={users} lists={lists} />
     </div>
   )
